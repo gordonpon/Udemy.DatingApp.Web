@@ -1,0 +1,44 @@
+# Build output
+bin/
+obj/
+dist/
+build/
+out/
+
+# .NET user-specific files
+*.user
+*.rsuser
+*.suo
+
+# Logs
+*.log
+logs/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# ASP.NET Core local settings
+appsettings.Development.json
+
+# Entity Framework / local databases
+*.db
+*.db-shm
+*.db-wal
+
+# Angular / Node
+node_modules/
+.angular/
+.cache/
+coverage/
+
+# Environment files
+.env
+.env.*
+
+# IDE settings
+.vs/
+.vscode/
+
+# OS files
+.DS_Store
+Thumbs.db
