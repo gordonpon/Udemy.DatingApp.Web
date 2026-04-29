@@ -7,6 +7,7 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Folder Include="ClientApp\" />
     <Folder Include="Data\" />
   </ItemGroup>
 

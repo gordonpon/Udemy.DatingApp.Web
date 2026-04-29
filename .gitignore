@@ -24,6 +24,9 @@ appsettings.Development.json
 *.db
 *.db-shm
 *.db-wal
+*.swp
+Udemy.DatingApp.Web/appSetting.json
+Udemy.DatingApp.Web/datingApp.db*
 
 # Angular / Node
 node_modules/
