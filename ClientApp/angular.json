@@ -14,7 +14,8 @@
           "skipTests": true
         },
         "@schematics/angular:component": {
-          "skipTests": true
+          "skipTests": true,
+          "path": "src"
         },
         "@schematics/angular:directive": {
           "skipTests": true
@@ -32,7 +33,8 @@
           "skipTests": true
         },
         "@schematics/angular:service": {
-          "skipTests": true
+          "skipTests": true,
+          "path": "src/core/services"
         }
       },
       "root": "",

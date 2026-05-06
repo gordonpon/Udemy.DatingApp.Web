@@ -8,6 +8,11 @@
 
   <ItemGroup>
     <Folder Include="ClientApp\" />
+    <Folder Include="ClientApp\src\core\" />
+    <Folder Include="ClientApp\src\features\" />
+    <Folder Include="ClientApp\src\layout\" />
+    <Folder Include="ClientApp\src\share\" />
+    <Folder Include="ClientApp\src\types\" />
     <Folder Include="Data\" />
     <Folder Include="DTOs\" />
     <Folder Include="Extensions\" />

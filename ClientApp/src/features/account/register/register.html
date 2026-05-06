@@ -1,0 +1,24 @@
+<div class="card bg-base-100 w-1/2 mx-auto flex-col p-5 rounded-lg shadow-lg">
+  <div class="card-title justify-center text-3xl text-primary">Sign up</div>
+  <div class="card-body w-full">
+    <form #registerForm="ngForm" class="flex flex-col gap-4 w-full" (ngSubmit)="register()">
+      <input class="input w-full" name="email" placeholder="email" [(ngModel)]="creds.email">
+      <input class="input w-full" name="displayName" placeholder="Display name" [(ngModel)]="creds.displayName">
+      <input type="password" class="input w-full" name="password" placeholder="Password" [(ngModel)]="creds.password">
+
+      <!-- 留意下拉選單的寫法
+      <select class="select w-full">
+        <option disabled selected>Pick a member</option>
+        @for(member of memberFromHome(); track $index) {
+          <option value="{{member.id}}">{{member.displayName}}</option>
+        }
+      </select> -->
+
+      <div class="flex items-center justify-end gap-3">
+        <button (click)="cancel()" type="button" class="btn">Cancel</button>
+        <button class="btn btn-primary" type="submit">Register</button>
+      </div>
+
+    </form>
+  </div>
+</div>
